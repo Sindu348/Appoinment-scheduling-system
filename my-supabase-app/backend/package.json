@@ -1,0 +1,26 @@
+{
+  "name": "my-supabase-app-backend",
+  "version": "1.0.0",
+  "description": "Backend for the My Supabase App project",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc",
+    "dev": "ts-node-dev src/index.ts"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^8.7.1",
+    "supabase": "^1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.4",
+    "ts-node": "^10.4.0",
+    "ts-node-dev": "^1.1.8",
+    "@types/express": "^4.17.13"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "license": "MIT"
+}

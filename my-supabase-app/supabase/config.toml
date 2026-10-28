@@ -1,0 +1,10 @@
+# Supabase configuration file
+
+db_url = "postgres://<username>:<password>@<host>:<port>/<database>"
+service_role_key = "<your_service_role_key>"
+anon_key = "<your_anon_key>"
+jwt_secret = "<your_jwt_secret>"
+migrations_dir = "migrations"
+seeds_dir = "seeds"
+database = "your_database_name"
+schema = "public"
